@@ -21,10 +21,10 @@ android:
   - android-23
 
   # Additional components
-  - sys-img-armeabi-v7a-android-23
+  #- sys-img-armeabi-v7a-android-23
 
 # Emulator Management: Create, Start and Wait
-# Commented for now because it just takes VERY long
+# Commented for now because it just takes VERY long, don't forget to install emulator above...
 #before_script:
 #  - echo no | android create avd --force -n test -t android-23 --abi armeabi-v7a
 #  - emulator -avd test -no-skin -no-audio -no-window &
