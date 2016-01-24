@@ -24,6 +24,7 @@ android:
   - extra-google-google_play_services
   - extra-google-m2repository
   - extra-android-m2repository
+  - addon-google_apis-google-23
   #- sys-img-armeabi-v7a-android-23
 
 # Emulator Management: Create, Start and Wait
@@ -37,4 +38,4 @@ android:
 # Override the default build target: "build connectedCheck" to prevent emulator testing
 script:
   - android list target
-  - ./gradlew build --info
+  - ./gradlew build
