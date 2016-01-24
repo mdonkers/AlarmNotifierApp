@@ -9,6 +9,8 @@ env:
 
 # Speed up build by using Travis-CI cache
 sudo: false
+before_cache:
+  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 cache:
   directories:
     - $HOME/.gradle/caches/2.8
