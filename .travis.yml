@@ -37,4 +37,4 @@ android:
 # Override the default build target: "build connectedCheck" to prevent emulator testing
 script:
   - android list target
-  - ./gradlew build
+  - ./gradlew build --info
