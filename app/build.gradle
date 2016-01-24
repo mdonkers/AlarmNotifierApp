@@ -18,6 +18,12 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        // Enable output to console so we can see also in Travis-CI
+        textOutput 'stdout'
+        textReport true
+    }
 }
 
 dependencies {
